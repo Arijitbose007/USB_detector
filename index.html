@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>USB Detector</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header class="text-center my-4">
+      <h1 class="display-4 text-primary">USB Detector</h1>
+    </header>
+    <main>
+      <section id="device-section" class="mb-4">
+        <div id="device-tabs" class="btn-group" role="group"></div>
+      </section>
+      <section id="files-section">
+        <h2 class="text-secondary">Files</h2>
+        
+        <ul id="file-list" class="file-list"></ul>
+      </section>
+    </main>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>

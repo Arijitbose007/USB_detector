@@ -1,0 +1,125 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('file:///C:/Users/Arijit/Desktop/assignment/bg.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  color: #f8f9fa;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  color: #ffeb3b;
+  text-shadow: 2px 2px 5px #000;
+}
+
+h2 {
+  color: #ffeb3b;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.device-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tab-button, .close-files-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 2px 2px 5px #000;
+}
+
+.tab-button:hover, .close-files-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.reload-button {
+  margin-left: 6px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 2px 2px 5px #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reload-button i {
+  font-size: 1.5em;
+}
+
+.reload-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.file-list li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+  color: black;
+  cursor: pointer;
+}
+
+.file-list li:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #000;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+pre {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #000;
+}
+
+.non-clickable-message {
+  text-align: center;
+  font-weight: bold;
+  pointer-events: none;
+  list-style-type: none; 
+}

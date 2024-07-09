@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Device Info</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="popup.css">
+  <style>
+    .popup-content {
+      text-align: center;
+      padding: 20px;
+    }
+    .popup-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .popup-message {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+    .device-info {
+      background-color: #f8f9fa;
+      padding: 1rem;
+      border-radius: 0.25rem;
+      text-align: left;
+      overflow-x: auto;
+    }
+    .btn-close {
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div id="popup-container" class="container popup-content">
+    <h3 id="popup-title" class="popup-title"></h3>
+    <p id="popup-message" class="popup-message"></p>
+    <pre id="device-info" class="device-info"></pre>
+    <button class="btn btn-primary btn-close" onclick="window.close()">Close</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
