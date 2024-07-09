@@ -3,6 +3,11 @@
 
 This project is a USB detection application built using Electron and Node.js. It detects USB devices, identifies if they are storage devices, and allows users to browse and fetch files from USB storage devices.
 
+## Video Demonstration
+
+Youtube link :
+https://youtu.be/CmPZbQj9AgI
+
 ## Prerequisites
 
 Ensure you have the following installed on your system:
